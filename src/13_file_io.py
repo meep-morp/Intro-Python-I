@@ -9,7 +9,12 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # Print all the contents of the file, then close the file
 # Note: pay close attention to your current directory when trying to open "foo.txt"
 
+# Using with, it is closed automatically
 # YOUR CODE HERE
+
+with open("src/foo.txt") as file_obj:
+    for line in file_obj:
+        print(line)
 
 # Open up a file called "bar.txt" (which doesn't exist yet) for
 # writing. Write three lines of arbitrary content to that file,
@@ -17,3 +22,5 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+with open("src/bar.txt", "w") as file_obj:
+    file_obj.write("Hello World \n This is a test \n sssssnake")
