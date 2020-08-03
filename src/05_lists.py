@@ -13,7 +13,7 @@ print(x)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
-x.extend([8, 9, 10])
+x.extend(y)
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]

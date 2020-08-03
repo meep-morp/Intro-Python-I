@@ -91,7 +91,7 @@ The suggested order for going through each of the directories is:
    recommends. Alternatively, PEP 8 linters exist for most code editors (you can
    find instructions on installing a Python linter for VSCode
    [here](https://code.visualstudio.com/docs/python/linting)). Try installing
-   one for your editor! (Installed pep8)
+   one for your editor! (Installed autopep8)
 
 2. Rewrite code challenges you've solved before or projects you've implemented
    before in a different language in Python. Start getting in as much practice
